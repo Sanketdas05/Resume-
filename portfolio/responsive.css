@@ -1,0 +1,191 @@
+@media screen and (max-width: 930px) and (min-width: 600px) {
+    
+    nav{
+      flex-direction: column;
+    }
+    
+  }
+
+  
+  @media screen and (max-width: 600px) {
+    nav{
+      flex-direction: column;
+      width: 1250px;
+    }
+    .logo {
+      font-size:3.5rem;
+    }
+    .menu{
+      flex-direction: column;
+      text-align: center;
+      margin: 40px;
+      
+    }
+    #menu{
+      background-color: #030303;
+      height: 310px;
+      width: 1250px;
+      margin-top: 10px;
+      transition: all 0.5s ease;
+    }
+    .menu a{
+      margin: 10px;
+      font-size: 2.5rem;
+    }
+    .burger{
+      display: block;
+    }
+    .h-nav-resp{
+      height: 70px;
+    }
+    .v-nav-resp{
+      opacity: 0;;
+    }
+    .hero{
+      flex-direction: column-reverse;
+      height: 1000px;
+      width: 1250px;
+      background-color: #0e0e0e;
+      background-image: none;
+    }
+    div .left{
+      width: 500px;
+    }
+    .left{
+      font-size: 3.5rem;
+      margin-right: 180px;
+      margin-top: 400px;
+    }
+    .hero h4{
+      width: 900px;
+    }
+    .right{
+      width: 100%;
+    }
+    .right img{
+      width: 400px;
+      height: 400px;
+      margin-top: 450px;
+    }
+    .about{
+      width: 1250px;
+      height: 1000px;
+    }
+    .about h1{
+    font-size: 3.5rem;
+    }
+    .para{
+      font-size: 2.5rem;
+      width: 80vh;
+    }
+    .details{
+      font-size: 2.5rem;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .head{
+      width: 1250px;
+    }
+    .head h1{
+      font-size: 3.5rem;
+    }
+    .right1{
+      display: none;
+    }
+    .container{
+   width: 80%; 
+    }
+    .projects{
+      width: 1250px;
+    }
+    #projects h1{
+      font-size: 3.5rem;
+    }
+    .contacts{
+      width: 1240px;
+      height: 1000px;
+      flex-direction: column;
+      background-color: #0e0e0e;
+    }
+    .contacts h1{
+      font-size: 4.5rem;
+    }
+    .contacts p{
+      font-size: 2.3rem;
+      width: 60vh;
+    }
+    .contact-form{
+      margin-right: 180px;
+      
+    }
+    .contact-form h1{
+      font-size: 3.5rem;
+    }
+    .footer{
+      width: 1250px;
+    }
+  }
+  @media screen and (max-width: 1600px) {
+    .para{
+      width: 80vh;
+    }
+    
+  }
+  @media screen and (max-width: 1000px) {
+    .para{
+      width: 60vh;
+    }
+    .right1{
+      display: none;
+    }
+    .container{
+   width: 80%;
+    }
+    .contact-form{
+    margin-right: 250px;
+    }
+  }
+  @media screen and (max-width: 1225px) {
+    .right1{
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 1100px) {
+    .contact-form{
+    margin-right: 150px;
+    }
+  }
+  @media screen and (max-width: 950px) {
+    .contacts{
+      flex-direction: column;
+      height: 1000px;
+    }
+  .contact-form{
+    margin-right: 250px;
+  }
+  .logo a{
+    font-size: 1.5rem;
+    margin-left: 30px;
+  }
+    
+  }
+  @media screen and (max-width: 775px) and (min-width: 600px) {
+    .left h4{
+      font-size: 1.5rem;
+    }
+    .para{
+      width: 40vh;
+    }
+    .left1{
+      margin-right: 190px;
+    }
+    .contact-form{
+    margin-right: 350px;
+    }
+    
+  }
+  @media screen and (max-width: 400px) {
+    .para{
+      width: 100vh;
+    }
+  }
